@@ -1,0 +1,16 @@
+HDF5 train_291_31_x234.h5 
+Group '/' 
+    Dataset 'data' 
+        Size:  31x31x1x1722688
+        MaxSize:  31x31x1xInf
+        Datatype:   H5T_IEEE_F32LE (single)
+        ChunkSize:  31x31x1x64
+        Filters:  none
+        FillValue:  0.000000
+    Dataset 'label' 
+        Size:  31x31x1x1722688
+        MaxSize:  31x31x1xInf
+        Datatype:   H5T_IEEE_F32LE (single)
+        ChunkSize:  31x31x1x64
+        Filters:  none
+        FillValue:  0.000000
