@@ -86,7 +86,7 @@ python demo.py --cuda
   - the training data is generated with Matlab Bicubic Interpolation, please refer [Code for Data Generation](/data/SuperResolution/generate_trainingset_x234.m) for creating training files train_291_31_x234.h5.
   
 ### Performance
-  - We provide a pre-trained MemNet_M6R6 [model](/checkpoint1) trained on [291](/data/SuperResolution/Train_291) images with data augmentation.  For the MemNet_M6R6 implementation, you can manually modify the number of Memory blocks [here](/memnet1.py).
+  - We provide a pre-trained MemNet_M6R6 [model](/checkpoint1) trained on [291](/data/SuperResolution/Train_291) images with data augmentation.  For the MemNet_M6R6 implementation, you can manually modify the number of Memory blocks and Residual Blocks [here](/train_memnet.py#56).
 
   - Performance in PSNR on Set5 
   
