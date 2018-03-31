@@ -83,19 +83,17 @@ python demo.py --cuda
 ```
 
 ### Prepare Training dataset
-  - the training data is generated with Matlab Bicubic Interpolation, please refer [Code for Data Generation](/data/SuperResolution/generate_trainingset_x234.m) for creating training files.
+  - the training data is generated with Matlab Bicubic Interpolation, please refer [Code for Data Generation](/data/SuperResolution/generate_trainingset_x234.m) for creating training files train_291_31_x234.h5.
   
 ### Performance
-  - We provide a ***rough*** pre-trained MemNet_M6R6 [model](/model) trained on [291](/data/Train_291) images with data augmentation. The model can achieve a better performance with a smart optimization strategy. For the MemNet_M6R6 implementation, you can manually modify the number of Memory blocks [here](/memnet1.py#L26:18).
-  - The same adjustable gradient clipping's implementation as original paper.
-  - No bias is used in this implementation.
-  - No batch normalization is used in this implementation.
+  - We provide a pre-trained MemNet_M6R6 [model](/checkpoint1) trained on [291](/data/SuperResolution/Train_291) images with data augmentation.  For the MemNet_M6R6 implementation, you can manually modify the number of Memory blocks [here](/memnet1.py).
+
   - Performance in PSNR on Set5 
   
 | Scale   | MemNet(M6R6) Paper | MemNet(M6R6) PyTorch|
 | -------:| ------------------:| -------------------:|
-| x2      | 37.74              | 37.69               |
-| x3      | 34.03              | 34.02               |
-| x4      | 31.68              | 31.70               |
+| x2      | 37.78              | 37.69               |
+| x3      | 34.09              | 34.02               |
+| x4      | 31.65              | 31.70               |
 
 Note: This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
