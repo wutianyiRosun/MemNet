@@ -5,7 +5,6 @@ This is an unofficial implementation of "MemNet: A Persistent Memory Network for
 
 You can get the official Caffe implementation [here](https://github.com/tyshiwo/MemNet).
 
-This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
 
 
 ## Usage
@@ -99,3 +98,4 @@ python demo.py --cuda
 | x3      | 34.03              | 34.02               |
 | x4      | 31.68              | 31.70               |
 
+Note: This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
