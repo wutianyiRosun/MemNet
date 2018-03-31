@@ -3,7 +3,7 @@ An implementation of MemNet: A Persistent Memory Network for Image Restoration, 
 
 This is an unofficial implementation of "MemNet: A Persistent Memory Network for Image Restoration (MemNet)", ICCV 2017 in Pytorch. [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Tai_MemNet_A_Persistent_ICCV_2017_paper.pdf) 
 
-You can get the official Caffe implementation [here](https://github.com/tyshiwo/DRRN_CVPR17).
+You can get the official Caffe implementation [here](https://github.com/tyshiwo/MemNet).
 
 This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
 
