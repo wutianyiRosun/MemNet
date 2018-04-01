@@ -10,7 +10,7 @@ from memnet1 import MemNet
 from utils import convert_state_dict
 parser = argparse.ArgumentParser(description="PyTorch Memnet Demo")
 parser.add_argument("--cuda", action="store_true", help="use cuda?")
-parser.add_argument("--model", default="checkpoint1/model_epoch_37.pth", type=str, help="model path")
+parser.add_argument("--model", default="checkpoint1/model_epoch_50.pth", type=str, help="model path")
 parser.add_argument("--image", default="woman_GT", type=str, help="image name")
 parser.add_argument("--scale", default=3, type=int, help="scale factor, Default: 4")
 parser.add_argument("--gpus", default="4", type=str, help="gpu ids (default: 0)")
