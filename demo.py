@@ -49,8 +49,8 @@ state = convert_state_dict( torch.load(opt.model)['model'])
 model.load_state_dict(state)
 
 
-im_gt_ycbcr = imread("Set5/" + opt.image + ".bmp", mode="YCbCr")
-im_b_ycbcr = imread("Set5/"+ opt.image + "_scale_"+ str(opt.scale) + ".bmp", mode="YCbCr")
+im_gt_ycbcr = imread("data/SuperResolution/Set5/" + opt.image + ".bmp", mode="YCbCr")
+im_b_ycbcr = imread("data/SuperResolution/Set5/"+ opt.image + "_scale_"+ str(opt.scale) + ".bmp", mode="YCbCr")
     
 im_gt_y = im_gt_ycbcr[:,:,0].astype(float)
 im_b_y = im_b_ycbcr[:,:,0].astype(float)
