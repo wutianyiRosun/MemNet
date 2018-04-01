@@ -93,7 +93,7 @@ python demo.py --cuda
 | Scale   |Bicubic     | MemNet(M6R6) Paper | MemNet(M6R6) PyTorch|
 | -------:| ----------:|-------------------:| -------------------:|
 | x2      |  33.66     |37.78               | 36.83               |
-| x3      |  30.39     | 34.09              | 33.26               |
+| x3      |  30.39     |34.09               | 33.26               |
 | x4      |  28.42     |31.74               | 30.95               |
 
 Note: This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
