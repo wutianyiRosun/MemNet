@@ -13,7 +13,7 @@ cudnn.benchmark = True
 
 parser = argparse.ArgumentParser(description="PyTorch MemNet Eval")
 parser.add_argument("--cuda", action="store_true", help="use cuda?")
-parser.add_argument("--model", default="checkpoint1/model_epoch_38.pth", type=str, help="model path")
+parser.add_argument("--model", default="checkpoint1/model_epoch_50.pth", type=str, help="model path")
 parser.add_argument("--dataset", default="Set5", type=str, help="dataset name, Default: Set5")
 parser.add_argument("--gpus", default="4", type=str, help="gpu ids (default: 0)")
 
