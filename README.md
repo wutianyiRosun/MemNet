@@ -88,7 +88,7 @@ python demo.py --cuda
 ### Performance
   - We provide a pre-trained MemNet_M6R6 [model](/checkpoint1) trained on [291](/data/SuperResolution/Train_291) images with data augmentation.  For the MemNet_M6R6 implementation, you can manually modify the number of Memory blocks and Residual Blocks [here](/train_memnet.py#56).
 
-  - Performance in PSNR on Set5 (train: 50 epochs)
+  - Performance in PSNR on Set5 (train: 50 epochs.)
   
 | Scale   |Bicubic     | MemNet(M6R6) Paper | MemNet(M6R6) PyTorch|
 | -------:| ----------:|-------------------:| -------------------:|
@@ -96,4 +96,5 @@ python demo.py --cuda
 | x3      |  30.39     |34.09               | 33.26               |
 | x4      |  28.42     |31.74               | 30.95               |
 
-Note: This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
+Note: 1. This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
+      2. I use the default initialization methods for layers, but author uses "msra" on Paper, which results in performance difference.
