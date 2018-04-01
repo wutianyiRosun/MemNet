@@ -96,5 +96,6 @@ python demo.py --cuda
 | x3      |  30.39     |34.09               | 33.26               |
 | x4      |  28.42     |31.74               | 30.95               |
 
-Note: 1. This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
-      2. I use the default initialization methods for layers, but author uses "msra" on Paper, which results in performance difference.
+Note: 
+- This implementation is modified from the implementation of [VDSR](https://cv.snu.ac.kr/research/VDSR/) by [@Jiu XU](https://github.com/twtygqyy/pytorch-vdsr).
+- I use the default initialization methods for layers, but author uses "msra" on Paper, which results in performance difference.
